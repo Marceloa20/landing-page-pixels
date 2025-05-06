@@ -1,0 +1,77 @@
+:root {
+    --ton-roxo: #02031F;
+}
+
+.cabecalho {
+    background: var(--ton-roxo);
+}
+
+span {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.linha-header {
+    width: 200px;
+    border: 2px solid #721b23;
+}
+
+button {
+    width: 70%;
+    border-radius: 75px !important;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+.img-carrossel {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.linha {
+    border-bottom: 2px solid #721b23;
+    width: 8%;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-accordion {
+    background-color: #02031F !important;
+    color: white !important;
+}
+
+.linha-form {
+    border-bottom: 2px solid #721b23;
+    width: 8%;  
+}
+
+.border-down {
+    background-color: var(--ton-roxo);
+    height: 150px;
+    width: 100%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 20%;
+    z-index: 1;
+}
+
+.border-up {
+    background-color: var(--ton-roxo);
+    height: 100px;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 20%;
+}
+
+.img-ebook {
+    z-index: 2;
+    margin-top: -15%;
+}
+
